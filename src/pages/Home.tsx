@@ -50,13 +50,12 @@ const Home = ({
     });
   }, []);
 
-  const apiLimit: number = 24; //カード数 2,3,4の公倍数がいい？
+  const apiLimit: number = 24;
   const apiURL: string = `https://pokeapi.co/api/v2/pokemon?limit=${apiLimit}&offset=${offset}`;
 
   const getDetail = async (url: string): Promise<PokemonData | null> => {
     try {
       const response = await fetch(url);
-      console.log(response);
       if (!response.ok) {
         throw new Error(`レスポンスステータス: ${response.status}`);
       }

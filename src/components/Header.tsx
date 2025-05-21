@@ -27,7 +27,7 @@ export const Header: React.FC<HeaderProps> = ({
       .then(() => {
         // Sign-out successful.
         setIsAuth(false);
-        console.log("Sign-out successful");
+        // console.log("Sign-out successful");
       })
       .catch((error) => {
         console.log(error);

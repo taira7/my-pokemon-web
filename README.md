@@ -4,7 +4,7 @@
 
 2024年10-12月<br>　このアプリケーションを個人で作成し、インターン先での研修課題としてこのアプリケーションの改修を行いました。
 
-- 公開URL：　my-pokemon-web (<https://my-pokemon-web-taupe.vercel.app/>)
+- 公開URL：my-pokemon-web (<https://my-pokemon-web-taupe.vercel.app/>)
 - iOS 版の github のリンク：my-pokemon-ios (<https://github.com/taira7/my-pokemon-ios>)
 
 アプリで使用するポケモンのデータは、以下の API から取得し利用させていただきました。
